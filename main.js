@@ -115,10 +115,10 @@ class Field {
                     };
                 } 
 
-                if (newLocation === hole) {
+                if (newLoc === hole) {
                     console.log("Sorry, you fell down a hole.")
                 }
-                else if (newLocation != hole || newLocation != fieldCharacter) {
+                else if (newLoc != hole || newLocation != fieldCharacter) {
                     console.log("You fell into the abyss. Game over.")
                 }
             };
